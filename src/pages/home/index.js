@@ -22,7 +22,7 @@ const Landing = () => {
       )}
       {isTablet && (
         <Link to="/home">
-          <PrimaryButton>GO TO</PrimaryButton>
+          <PrimaryButton>GO TO PAGE</PrimaryButton>
         </Link>
       )}
       <H1 as="h1" textAlign="center" textDecoration="underline">TESTING H1</H1>
