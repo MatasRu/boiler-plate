@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Button } from "../buttons/Button";
+import { Button } from "./Button";
 
 export const SecondaryButton = styled(Button)`
   background-color: orange;

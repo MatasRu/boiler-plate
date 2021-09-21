@@ -30,5 +30,23 @@ module.exports = {
         path: path.resolve(__dirname, `src/assets/images`),
       },
     },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Raleway",
+              variants: ["300", "400", "500", "700"],
+            },
+            {
+              family: "Roboto",
+              variants: ["300", "400", "500", "700"],
+            },
+          ],
+        },
+      },
+    },
   ],
+  
 };
